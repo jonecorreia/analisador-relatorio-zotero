@@ -58,8 +58,8 @@ def salvar_resultados(artigos, somente_selecionados):
 
 #file_path = 'base/r_completo1682-ACM.html'
 #file_path = 'base/r_completo1178-SD.html'
-file_path = 'base/r_completo1948-springer.html'
-#file_path = 'base/r_completo43-IEEE.html'
+#file_path = 'base/r_completo1948-springer.html'
+file_path = 'base/r_completo43-IEEE.html'
 #file_path = 'base/r_completo120-SCOPUS.html'
 termos_busca = ['green', 'sustain', 'ecolog']
 somente_selecionados = True

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html><head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="Content-Security-Policy" content="script-src 'none'; media-src 'none'">
+		<title>Relatório Zotero</title>
+		<link rel="stylesheet" type="text/css" href="data:text/css;base64,Ym9keSB7CgliYWNrZ3JvdW5kOiB3aGl0ZTsKfQoKYSB7Cgl0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTsKfQoKYm9keSB7CglwYWRkaW5nOiAwOwp9Cgp1bC5yZXBvcnQgbGkuaXRlbSB7Cglib3JkZXItdG9wOiA0cHggc29saWQgIzU1NTsKCXBhZGRpbmctdG9wOiAxZW07CglwYWRkaW5nLWxlZnQ6IDFlbTsKCXBhZGRpbmctcmlnaHQ6IDFlbTsKCW1hcmdpbi1ib3R0b206IDJlbTsKfQoKaDEsIGgyLCBoMywgaDQsIGg1LCBoNiB7Cglmb250LXdlaWdodDogbm9ybWFsOwp9CgpoMiB7CgltYXJnaW46IDAgMCAuNWVtOwp9CgpoMi5wYXJlbnRJdGVtIHsKCWZvbnQtd2VpZ2h0OiBib2xkOwoJZm9udC1zaXplOiAxZW07CglwYWRkaW5nOiAwIDAgLjVlbTsKCWJvcmRlci1ib3R0b206IDFweCBzb2xpZCAjY2NjOwp9CgovKiBJZiBjb21iaW5pbmcgY2hpbGRyZW4sIGRpc3BsYXkgcGFyZW50IHNsaWdodGx5IGxhcmdlciAqLwp1bC5yZXBvcnQuY29tYmluZUNoaWxkSXRlbXMgaDIucGFyZW50SXRlbSB7Cglmb250LXNpemU6IDEuMWVtOwoJcGFkZGluZy1ib3R0b206IC43NWVtOwoJbWFyZ2luLWJvdHRvbTogLjRlbTsKfQoKaDIucGFyZW50SXRlbSAudGl0bGUgewoJZm9udC13ZWlnaHQ6IG5vcm1hbDsKfQoKaDMgewoJbWFyZ2luLWJvdHRvbTogLjZlbTsKCWZvbnQtd2VpZ2h0OiBib2xkICFpbXBvcnRhbnQ7Cglmb250LXNpemU6IDFlbTsKCWRpc3BsYXk6IGJsb2NrOwp9CgovKiBNZXRhZGF0YSB0YWJsZSAqLwp0aCB7Cgl2ZXJ0aWNhbC1hbGlnbjogdG9wOwoJdGV4dC1hbGlnbjogcmlnaHQ7Cgl3aWR0aDogMTUlOwoJd2hpdGUtc3BhY2U6IG5vd3JhcDsKfQoKdGQgewoJcGFkZGluZy1sZWZ0OiAuNWVtOwp9CgoKdWwucmVwb3J0LCB1bC5ub3RlcywgdWwudGFncyB7CglsaXN0LXN0eWxlOiBub25lOwoJbWFyZ2luLWxlZnQ6IDA7CglwYWRkaW5nLWxlZnQ6IDA7Cn0KCi8qIFRhZ3MgKi8KaDMudGFncyB7Cglmb250LXNpemU6IDEuMWVtOwp9Cgp1bC50YWdzIHsKCWxpbmUtaGVpZ2h0OiAxLjc1ZW07CglsaXN0LXN0eWxlOiBub25lOwp9Cgp1bC50YWdzIGxpIHsKCWRpc3BsYXk6IGlubGluZTsKfQoKdWwudGFncyBsaTpub3QoOmxhc3QtY2hpbGQpOmFmdGVyIHsKCWNvbnRlbnQ6ICcsICc7Cn0KCgovKiBDaGlsZCBub3RlcyAqLwpoMy5ub3RlcyB7Cglmb250LXNpemU6IDEuMWVtOwp9Cgp1bC5ub3RlcyB7CgltYXJnaW4tYm90dG9tOiAxLjJlbTsKfQoKdWwubm90ZXMgPiBsaTpmaXJzdC1jaGlsZCBwIHsKCW1hcmdpbi10b3A6IDA7Cn0KCnVsLm5vdGVzID4gbGkgewoJcGFkZGluZzogLjdlbSAwOwp9Cgp1bC5ub3RlcyA+IGxpOm5vdCg6bGFzdC1jaGlsZCkgewoJYm9yZGVyLWJvdHRvbTogMXB4ICNjY2Mgc29saWQ7Cn0KCgp1bC5ub3RlcyA+IGxpIHA6Zmlyc3QtY2hpbGQgewoJbWFyZ2luLXRvcDogMDsKfQoKdWwubm90ZXMgPiBsaSBwOmxhc3QtY2hpbGQgewoJbWFyZ2luLWJvdHRvbTogMDsKfQoKLyogQWRkIHF1b3RhdGlvbiBtYXJrcyBhcm91bmQgYmxvY2txdW90ZSAqLwp1bC5ub3RlcyA+IGxpIGJsb2NrcXVvdGUgcDpub3QoOmVtcHR5KTpiZWZvcmUsCmxpLm5vdGUgYmxvY2txdW90ZSBwOm5vdCg6ZW1wdHkpOmJlZm9yZSB7Cgljb250ZW50OiAn4oCcJzsKfQoKdWwubm90ZXMgPiBsaSBibG9ja3F1b3RlIHA6bm90KDplbXB0eSk6bGFzdC1jaGlsZDphZnRlciwKbGkubm90ZSBibG9ja3F1b3RlIHA6bm90KDplbXB0eSk6bGFzdC1jaGlsZDphZnRlciB7Cgljb250ZW50OiAn4oCdJzsKfQoKLyogUHJlc2VydmUgd2hpdGVzcGFjZSBvbiBwbGFpbnRleHQgbm90ZXMgKi8KdWwubm90ZXMgbGkgcC5wbGFpbnRleHQsIGxpLm5vdGUgcC5wbGFpbnRleHQsIGRpdi5ub3RlIHAucGxhaW50ZXh0IHsKCXdoaXRlLXNwYWNlOiBwcmUtd3JhcDsKfQoKLyogRGlzcGxheSB0YWdzIHdpdGhpbiBjaGlsZCBub3RlcyBpbmxpbmUgKi8KdWwubm90ZXMgaDMudGFncyB7CglkaXNwbGF5OiBpbmxpbmU7Cglmb250LXNpemU6IDFlbTsKfQoKdWwubm90ZXMgaDMudGFnczphZnRlciB7Cgljb250ZW50OiAnICc7Cn0KCnVsLm5vdGVzIHVsLnRhZ3MgewoJZGlzcGxheTogaW5saW5lOwp9Cgp1bC5ub3RlcyB1bC50YWdzIGxpOm5vdCg6bGFzdC1jaGlsZCk6YWZ0ZXIgewoJY29udGVudDogJywgJzsKfQoKCi8qIENoaWxkIGF0dGFjaG1lbnRzICovCmgzLmF0dGFjaG1lbnRzIHsKCWZvbnQtc2l6ZTogMS4xZW07Cn0KCnVsLmF0dGFjaG1lbnRzIGxpIHsKCXBhZGRpbmctdG9wOiAuNWVtOwp9Cgp1bC5hdHRhY2htZW50cyBkaXYubm90ZSB7CgltYXJnaW4tbGVmdDogMmVtOwp9Cgp1bC5hdHRhY2htZW50cyBkaXYubm90ZSBwOmZpcnN0LWNoaWxkIHsKCW1hcmdpbi10b3A6IC43NWVtOwp9CgpkaXYgdGFibGUgewoJYm9yZGVyLWNvbGxhcHNlOiBjb2xsYXBzZTsKfQoKZGl2IHRhYmxlIHRkLCBkaXYgdGFibGUgdGggewoJYm9yZGVyOiAxcHggI2NjYyBzb2xpZDsKCWJvcmRlci1jb2xsYXBzZTogY29sbGFwc2U7Cgl3b3JkLWJyZWFrOiBicmVhay1hbGw7Cn0KCmRpdiB0YWJsZSB0ZCBwOmVtcHR5OjphZnRlciwgZGl2IHRhYmxlIHRoIHA6ZW1wdHk6OmFmdGVyIHsKCWNvbnRlbnQ6ICJcMDBhMCI7Cn0KCmRpdiB0YWJsZSB0ZCAqOmZpcnN0LWNoaWxkLCBkaXYgdGFibGUgdGggKjpmaXJzdC1jaGlsZCB7CgltYXJnaW4tdG9wOiAwOwp9CgpkaXYgdGFibGUgdGQgKjpsYXN0LWNoaWxkLCBkaXYgdGFibGUgdGggKjpsYXN0LWNoaWxkIHsKCW1hcmdpbi1ib3R0b206IDA7Cn0K">
+		<link rel="stylesheet" type="text/css" media="screen,projection" href="data:text/css;base64,LyogR2VuZXJpYyBzdHlsZXMgKi8KYm9keSB7Cglmb250OiA2Mi41JSBHZW9yZ2lhLCBUaW1lcywgc2VyaWY7Cgl3aWR0aDogNzgwcHg7CgltYXJnaW46IDAgYXV0bzsKfQoKaDIgewoJZm9udC1zaXplOiAxLjVlbTsKCWxpbmUtaGVpZ2h0OiAxLjVlbTsKCWZvbnQtZmFtaWx5OiBHZW9yZ2lhLCBUaW1lcywgc2VyaWY7Cn0KCnAgewoJbGluZS1oZWlnaHQ6IDEuNWVtOwp9CgphOmxpbmssIGE6dmlzaXRlZCB7Cgljb2xvcjogIzkwMDsKfQoKYTpob3ZlciwgYTphY3RpdmUgewoJY29sb3I6ICM3Nzc7Cn0KCgp1bC5yZXBvcnQgewoJZm9udC1zaXplOiAxLjRlbTsKCXdpZHRoOiA2ODBweDsKCW1hcmdpbjogMCBhdXRvOwoJcGFkZGluZzogMjBweCAyMHB4Owp9CgovKiBNZXRhZGF0YSB0YWJsZSAqLwp0YWJsZSB7Cglib3JkZXI6IDFweCAjY2NjIHNvbGlkOwoJb3ZlcmZsb3c6IGF1dG87Cgl3aWR0aDogMTAwJTsKCW1hcmdpbjogLjFlbSBhdXRvIC43NWVtOwoJcGFkZGluZzogMC41ZW07Cn0K">
+		<link rel="stylesheet" type="text/css" media="print" href="data:text/css;base64,Ym9keSB7Cglmb250OiAxMnB0ICJUaW1lcyBOZXcgUm9tYW4iLCBUaW1lcywgR2VvcmdpYSwgc2VyaWY7CgltYXJnaW46IDA7Cgl3aWR0aDogYXV0bzsKCWNvbG9yOiBibGFjazsKfQoKLyogUGFnZSBCcmVha3MgKHBhZ2UtYnJlYWstaW5zaWRlIG9ubHkgcmVjb2duaXplZCBieSBPcGVyYSkgKi8KaDEsIGgyLCBoMywgaDQsIGg1LCBoNiB7CglwYWdlLWJyZWFrLWFmdGVyOiBhdm9pZDsKCXBhZ2UtYnJlYWstaW5zaWRlOiBhdm9pZDsKfQoKdWwsIG9sLCBkbCB7CglwYWdlLWJyZWFrLWluc2lkZTogYXZvaWQ7Cgljb2xvci1hZGp1c3Q6IGV4YWN0Owp9CgpoMiB7Cglmb250LXNpemU6IDEuM2VtOwoJbGluZS1oZWlnaHQ6IDEuM2VtOwp9CgphIHsKCWNvbG9yOiAjMDAwOwoJdGV4dC1kZWNvcmF0aW9uOiBub25lOwp9Cg==">
+	</head>
+	<body>
+		<ul class="report combineChildItems">
+			<li id="item_FKKBMIJU" class="item conferencePaper">
+				<h2>9th International Workshop on Software Engineering for ELearning (ISELEAR'18)</h2>
+					<table>
+						<tbody><tr>
+							<th>Tipo do item</th>
+							<td>Conferência</td>
+						</tr>
+						<tr>
+							<th class="author">Autor</th>
+							<td>Miguel Á. Conde</td>
+						</tr>
+						<tr>
+							<th class="author">Autor</th>
+							<td>Antonio Sarasa-Cabezuelo</td>
+						</tr>
+						<tr>
+							<th class="author">Autor</th>
+							<td>José-Luis Sierra</td>
+						</tr>
+						<tr>
+						<th>Resumo</th>
+							<td>This paper introduces the 9th Edition of the International 
+	Workshop on Software Engineering for E-Learning (ISELEAR'18), organized 
+	as a track of TEEM'18, the 6th International Conference on Technological
+	 Ecosystems for Enhancing Multiculturality. The main goal of ISELEAR is 
+	to explore the different methods, techniques and tools used for the 
+	systematic development of E-Learning ecosystems. In this way, and 
+	contrarily to the pedagogical aspects promoted by other events in 
+	E-Learning, ISELEAR is focused on the technical and engineering aspects 
+	of the software supporting these systems. This introduction describes 
+	the workshop's history, the review and selection process, and summarizes
+	 the papers accepted for this 2018 edition.</td>
+						</tr>
+						<tr>
+						<th>Data</th>
+							<td>2018</td>
+						</tr>
+						<tr>
+						<th>URL</th>
+							<td><a href="https://doi.org/10.1145/3284179.3284327">https://doi.org/10.1145/3284179.3284327</a></td>
+						</tr>
+						<tr>
+						<th>Extra</th>
+							<td>event-place: Salamanca, Spain</td>
+						</tr>
+						<tr>
+						<th>Lugar</th>
+							<td>New York, NY, USA</td>
+						</tr>
+						<tr>
+						<th>Editor</th>
+							<td>Association for Computing Machinery</td>
+						</tr>
+						<tr>
+						<th>ISBN</th>
+							<td>978-1-4503-6518-5</td>
+						</tr>
+						<tr>
+						<th>Páginas</th>
+							<td>879–882</td>
+						</tr>
+						<tr>
+						<th>Série</th>
+							<td>TEEM'18</td>
+						</tr>
+						<tr>
+						<th>Título dos anais</th>
+							<td>Proceedings of the Sixth International Conference on Technological Ecosystems for Enhancing Multiculturality</td>
+						</tr>
+						<tr>
+						<th>DOI</th>
+							<td><a href="http://doi.org/10.1145/3284179.3284327">10.1145/3284179.3284327</a></td>
+						</tr>
+						<tr>
+						<th>Data de adição</th>
+							<td>15/10/2023 10:43:37</td>
+						</tr>
+						<tr>
+						<th>Data de modificação</th>
+							<td>13/11/2023 10:23:51</td>
+						</tr>
+					</tbody></table>
+					<h3 class="tags">Etiquetas:</h3>
+					<ul class="tags">
+						<li>Software engineering</li>
+						<li>educational technology</li>
+						<li>e-Learning engineering</li>
+						<li>Leitura Inicial - DESCARTADO</li>
+						<li>ACM</li>
+					</ul>
+					<h3 class="notes">Notas:</h3>
+					<ul class="notes">
+						<li id="item_CNQ2K2IV">
+	<div><div data-schema-version="8"><p>#nota</p>
+	<p>Não é um artigo da área de ESS ou revisão secundária. </p>
+	<p></p>
+	</div></div>
+						</li>
+						<li id="item_6XSREBP7">
+	<div><div data-schema-version="8"><p>#resumo</p>
+	<p>This paper introduces the 9th Edition of the International Workshop 
+	on Software Engineering for E-Learning (ISELEAR'18), organized as a 
+	track of TEEM'18, the 6th International Conference on Technological 
+	Ecosystems for Enhancing Multiculturality. The main goal of ISELEAR is 
+	to explore the different methods, techniques and tools used for the 
+	systematic development of E-Learning ecosystems. In this way, and 
+	contrarily to the pedagogical aspects promoted by other events in 
+	E-Learning, ISELEAR is focused on the technical and engineering aspects 
+	of the software supporting these systems. This introduction describes 
+	the workshop's history, the review and selection process, and summarizes
+	 the papers accepted for this 2018 edition.</p>
+	<hr>
+	<p></p>
+	</div></div>
+						</li>
+					</ul>
+				</li>
+	
+	
+				<li id="item_45I84LH5" class="item conferencePaper">
+				<h2>10 Years of Research With and On Hackathons</h2>
+					<table>
+						<tbody><tr>
+							<th>Tipo do item</th>
+							<td>Conferência</td>
+						</tr>
+						<tr>
+							<th class="author">Autor</th>
+							<td>Jeanette Falk Olesen</td>
+						</tr>
+						<tr>
+							<th class="author">Autor</th>
+							<td>Kim Halskov</td>
+						</tr>
+						<tr>
+						<th>Resumo</th>
+							<td>Hackathon formats have been praised for their potential for 
+	promoting innovative thinking and making in a short time-frame. For this
+	 reason, hackathons have also been embraced by many researchers who use 
+	hackathons as part of their research in various ways. Through an 
+	extensive review of 381 publications published during a 10 year time 
+	span, we document the multiple ways in which hackathons are embraced and
+	 used by researchers The paper contributes to a better understanding of 
+	hackathons as part of research by providing a broad overview as a 
+	resource for researchers. We identify three main motivations for using 
+	hackathons as part of research: 1) Structuring learning, 2) structuring 
+	processes, and 3) enabling participation. For each of the motivations, 
+	we identify research with hackathons, and research on hackathons as two 
+	main categories. Drawing on several examples from the review we discuss 
+	benefits and challenges of using hackathons as part of research.</td>
+						</tr>
+						<tr>
+						<th>Data</th>
+							<td>2020</td>
+						</tr>
+						<tr>
+						<th>URL</th>
+							<td><a href="https://doi.org/10.1145/3357236.3395543">https://doi.org/10.1145/3357236.3395543</a></td>
+						</tr>
+						<tr>
+						<th>Extra</th>
+							<td>event-place: Eindhoven, Netherlands</td>
+						</tr>
+						<tr>
+						<th>Lugar</th>
+							<td>New York, NY, USA</td>
+						</tr>
+						<tr>
+						<th>Editor</th>
+							<td>Association for Computing Machinery</td>
+						</tr>
+						<tr>
+						<th>ISBN</th>
+							<td>978-1-4503-6974-9</td>
+						</tr>
+						<tr>
+						<th>Páginas</th>
+							<td>1073–1088</td>
+						</tr>
+						<tr>
+						<th>Série</th>
+							<td>DIS '20</td>
+						</tr>
+						<tr>
+						<th>Título dos anais</th>
+							<td>Proceedings of the 2020 ACM Designing Interactive Systems Conference</td>
+						</tr>
+						<tr>
+						<th>DOI</th>
+							<td><a href="http://doi.org/10.1145/3357236.3395543">10.1145/3357236.3395543</a></td>
+						</tr>
+						<tr>
+						<th>Data de adição</th>
+							<td>15/10/2023 11:00:09</td>
+						</tr>
+						<tr>
+						<th>Data de modificação</th>
+							<td>13/11/2023 12:09:58</td>
+						</tr>
+					</tbody></table>
+					<h3 class="tags">Etiquetas:</h3>
+					<ul class="tags">
+						<li>literature review</li>
+						<li>hackathons</li>
+						<li>research method</li>
+						<li>Leitura Inicial - DESCARTADO</li>
+						<li>ACM</li>
+					</ul>
+					<h3 class="notes">Notas:</h3>
+					<ul class="notes">
+						<li id="item_C9INI642">
+	<div><div data-schema-version="8"><p>#nota</p>
+	<p>Não é um artigo da área de ESS ou revisão secundária. </p>
+	<p></p>
+	</div></div>
+						</li>
+						<li id="item_BRTILGEN">
+	<div><div data-schema-version="8"><p>#resumo</p>
+	<p>Hackathon formats have been praised for their potential for promoting
+	 innovative thinking and making in a short time-frame. For this reason, 
+	hackathons have also been embraced by many researchers who use 
+	hackathons as part of their research in various ways. Through an 
+	extensive review of 381 publications published during a 10 year time 
+	span, we document the multiple ways in which hackathons are embraced and
+	 used by researchers The paper contributes to a better understanding of 
+	hackathons as part of research by providing a broad overview as a 
+	resource for researchers. We identify three main motivations for using 
+	hackathons as part of research: 1) Structuring learning, 2) structuring 
+	processes, and 3) enabling participation. For each of the motivations, 
+	we identify research with hackathons, and research on hackathons as two 
+	main categories. Drawing on several examples from the review we discuss 
+	benefits and challenges of using hackathons as part of research.</p>
+	<hr>
+	<p></p>
+	</div></div>
+						</li>
+					</ul>
+				</li>
+
+		</ul>
+	
+</body></html>
